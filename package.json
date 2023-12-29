@@ -1,0 +1,33 @@
+{
+  "name": "qrcode-uni",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "author": "h.y",
+  "license": "ISC",
+  "bin": {
+    "qrcode": "./bin/qrcode"
+  },
+  "keywords": [
+    "qr",
+    "code",
+    "canvas",
+    "qrcode",
+    "uni"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.6",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup-plugin-babel": "^4.4.0"
+  },
+  "dependencies": {
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
