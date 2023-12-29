@@ -1,6 +1,6 @@
 {
   "name": "qrcode-uni",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./lib/index.js",
   "author": "h.y",
@@ -19,6 +19,10 @@
     "build": "rollup -c",
     "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zephyr-yang66/qrcode-uni.git"
   },
   "devDependencies": {
     "@babel/core": "^7.23.6",
